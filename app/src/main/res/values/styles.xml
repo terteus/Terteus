@@ -1,14 +1,15 @@
-<resources>
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
 
     <!--
         Base application theme, dependent on API level. This theme is replaced
-        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
     -->
     <style name="AppBaseTheme" parent="android:Theme.Light">
         <!--
             Theme customizations available in newer API levels can go in
             res/values-vXX/styles.xml, while customizations related to
-            backward-compatibility can go here.
+            backward-compatibility can go here.
         -->
     </style>
 
@@ -20,23 +21,27 @@
     <style name="styleName">
         <item name="android:background">#3a3a3a</item>
     </style>
+
     <style name="telaBackground">
         <item name="android:background">#3a3a3a</item>
         <item name="android:paddingLeft">@dimen/activity_horizontal_margin</item>
     </style>
-    <style name="textoBranco" parent="android:Widget.Holo.Light.TextView">
+
+    <style name="textoBranco">
         <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
         <item name="android:textColor">#FFF</item>
     </style>
-    <style name="fonteBrancaVerdana20" parent="android:Widget.Holo.Light.TextView">
-        <item name="android:fontFamily">Verdana</item>
+
+    <style name="fonteBrancaVerdana20" >
         <item name="android:textColor">#FFF</item>
         <item name="android:textSize">20sp</item>
     </style>
-    <style name="editAzul" parent="android:Widget.Holo.Light.EditText">
+
+    <style name="editAzul" >
         <item name="android:background">#00afef</item>
         <item name="android:minHeight">35dp</item>
     </style>
+
     <style name="cabecalho" parent="@style/fonteBrancaVerdana20">
         <item name="android:background">#00afef</item>
         <item name="android:paddingBottom">20dp</item>
@@ -45,17 +50,68 @@
         <item name="android:paddingTop">15dp</item>
         <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
     </style>
-    <style name="labelInformacoes" parent="android:Widget.Holo.Light.TextView">
+
+    <style name="labelInformacoes" >
         <item name="android:paddingBottom">5dp</item>
         <item name="android:paddingTop">10dp</item>
     </style>
-    <style name="buttonAzul" parent="android:Widget.Holo.Light.Button">
+
+    <style name="buttonAzul" >
         <item name="android:background">#00afef</item>
         <item name="android:height">48dp</item>
         <item name="android:layout_marginTop">15dp</item>
         <item name="android:textColor">#FFF</item>
     </style>
+
     <style name="textoAzul" parent="@style/fonteBrancaVerdana20">
         <item name="android:textColor">#00afef</item>
+    </style>
+
+    <style name="botaoBranco" parent="@style/fonteBrancaVerdana20">
+        <item name="android:background">#fff</item>
+        <item name="android:height">65dp</item>
+        <item name="android:layout_marginBottom">101dp</item>
+        <item name="android:minHeight">65dp</item>
+        <item name="android:paddingLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:textColor">#00afef</item>
+    </style>
+
+    <style name="ButtonBar">
+        <item name="android:paddingLeft">2dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:paddingRight">2dp</item>
+        <item name="android:paddingBottom">0dp</item>
+        <item name="android:background">@android:drawable/bottom_bar</item>
+    </style>
+
+    <style name="botaoAmareloFontePreta" parent="@style/botaoBranco">
+        <item name="android:background">#09C</item>
+        <item name="android:minWidth">45dp</item>
+        <item name="android:textColor">#FFF</item>
+        <item name="android:width">120dp</item>
+        <item name="android:height">65dp</item>
+    </style>
+    <style name="bgCinzaInterno">
+        <item name="android:background">#333</item>
+        <item name="android:padding">0dp</item>
+    </style>
+    <style name="bgCinzaInterno2">
+        <item name="android:background">#333</item>
+    </style>
+    <style name="labelTituloTela" parent="@style/cabecalho">
+        <item name="android:background">#FFF</item>
+        <item name="android:paddingBottom">20dp</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:textColorHint">#000</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+    <style name="caixaTextoBranca" >
+        <item name="android:background">#FFF</item>
+        <item name="android:inputType">text</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:textColor">#000</item>
     </style>
 </resources>

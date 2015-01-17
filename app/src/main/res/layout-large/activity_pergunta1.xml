@@ -1,0 +1,127 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    android:padding="0dp"
+    tools:context=".telaPerguntas" >
+
+    <TextView
+        android:id="@+id/textoPergunta"
+        style="@style/labelTituloTela"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/radioGroup"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:height="120dp"
+        android:text=""
+        android:textColor="#000"
+        android:textSize="28dp" />
+
+    <Button
+        android:id="@+id/btnEnviarRespostas"
+        style="@style/botaoAmareloFontePreta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView1"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="40dp"
+       
+        android:height="85dp"
+        android:minHeight="85dp"
+        android:onClick="voltar"
+        android:text="@string/btn_anterior"
+        
+        android:textSize="24sp"
+        android:width="190dp" />
+
+    <Button
+        android:id="@+id/btnAvancar"
+        style="@style/botaoAmareloFontePreta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnEnviarRespostas"
+        android:layout_alignBottom="@+id/btnEnviarRespostas"
+        android:layout_alignParentRight="true"
+        android:height="85dp"
+        android:minHeight="85dp"
+        android:onClick="avancar"
+        android:text="@string/btn_proxima"
+        android:textSize="24sp"
+        android:width="190dp" />
+
+    <TextView
+        android:id="@+id/TextCont"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignBottom="@+id/btnEnviarRespostas"
+        android:layout_alignTop="@+id/btnEnviarRespostas"
+        android:layout_toLeftOf="@+id/btnAvancar"
+        android:layout_toRightOf="@+id/btnEnviarRespostas"
+        
+        android:gravity="center"
+        android:height="85dp"
+        android:minHeight="85dp"
+        android:text="@string/lbl_contador"
+        android:textColor="#333"
+        android:textSize="25sp" 
+        android:background="@drawable/round_field"/>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="21dp"
+        android:adjustViewBounds="true"
+        android:contentDescription="@string/app_name"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:src="@drawable/logo_terteus" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnEnviarRespostas"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true" >
+
+        <RadioButton
+            android:id="@+id/radioSim"
+            style="@style/textoAzul"
+            android:layout_width="match_parent"
+            android:layout_height="136dp"
+            android:layout_marginBottom="5dp"
+            android:layout_weight="1.42"
+            android:background="#FFF"
+            android:checked="true"
+            android:height="85dp"
+            android:minHeight="85dp"
+            android:paddingLeft="35dp"
+            android:text="@string/radio_sim"
+            android:textColor="#333"
+            android:textSize="35dp" />
+
+        <RadioButton
+            android:id="@+id/radioNao"
+            style="@style/textoAzul"
+            android:layout_width="match_parent"
+            android:layout_height="145dp"
+            android:layout_marginBottom="27dp"
+            android:layout_weight="1.42"
+            android:background="#FFF"
+            android:checked="true"
+            android:height="85dp"
+            android:minHeight="85dp"
+            android:paddingLeft="35dp"
+            android:text="@string/radio_nao"
+            android:textColor="#333"
+            android:textSize="35dp" />
+
+    </RadioGroup>
+
+</RelativeLayout>

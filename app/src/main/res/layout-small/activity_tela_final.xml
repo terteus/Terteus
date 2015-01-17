@@ -1,0 +1,46 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/bgCinzaInterno"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#FFF"
+    android:gravity="center_horizontal"
+    tools:context=".TelaFinal" >
+
+    <Button
+        android:id="@+id/btnEnviarRespostas"
+        style="@style/botaoAmareloFontePreta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="45dp"
+        android:onClick="enviarRespostas"
+        android:text="@string/btn_enviar_respostas" />
+
+    <TextView
+        android:id="@+id/TextCont"
+        style="@style/labelTituloTela"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:text="@string/lbl_agradecimento"
+        android:textColor="#000"
+        android:gravity="center"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/TextCont"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="30dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/logo_terteusp" />
+
+</RelativeLayout>

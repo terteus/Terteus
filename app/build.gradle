@@ -1,12 +1,12 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 18
+    compileSdkVersion 10
     buildToolsVersion "21.1.2"
 
     defaultConfig {
         applicationId "br.edu.fcsl.projetointegrado"
-        minSdkVersion 8
+        minSdkVersion 9
         targetSdkVersion 18
     }
 

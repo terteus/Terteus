@@ -19,7 +19,15 @@ public final class R {
 <tr><td><code>alignMargins</code></td><td>1</td><td></td></tr>
 </table>
          */
-        public static final int alignmentMode=0x7f010004;
+        public static final int alignmentMode=0x7f010006;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int buttonBarButtonStyle=0x7f010001;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int buttonBarStyle=0x7f010000;
         /** <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -27,7 +35,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int columnCount=0x7f010002;
+        public static final int columnCount=0x7f010004;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -35,7 +43,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int columnOrderPreserved=0x7f010006;
+        public static final int columnOrderPreserved=0x7f010008;
         /** <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -43,7 +51,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int layout_column=0x7f010009;
+        public static final int layout_column=0x7f01000b;
         /** <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -51,7 +59,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int layout_columnSpan=0x7f01000a;
+        public static final int layout_columnSpan=0x7f01000c;
         /** <p>Must be one or more (separated by '|') of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -74,7 +82,7 @@ containing a value of this type.
 <tr><td><code>end</code></td><td>0x00800005</td><td></td></tr>
 </table>
          */
-        public static final int layout_gravity=0x7f01000b;
+        public static final int layout_gravity=0x7f01000d;
         /** <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -82,7 +90,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int layout_row=0x7f010007;
+        public static final int layout_row=0x7f010009;
         /** <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -90,7 +98,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int layout_rowSpan=0x7f010008;
+        public static final int layout_rowSpan=0x7f01000a;
         /** <p>Must be one of the following constant values.</p>
 <table>
 <colgroup align="left" />
@@ -101,7 +109,7 @@ containing a value of this type.
 <tr><td><code>vertical</code></td><td>1</td><td></td></tr>
 </table>
          */
-        public static final int orientation=0x7f010000;
+        public static final int orientation=0x7f010002;
         /** <p>Must be an integer value, such as "<code>100</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -109,7 +117,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int rowCount=0x7f010001;
+        public static final int rowCount=0x7f010003;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -117,7 +125,7 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int rowOrderPreserved=0x7f010005;
+        public static final int rowOrderPreserved=0x7f010007;
         /** <p>Must be a boolean value, either "<code>true</code>" or "<code>false</code>".
 <p>This may also be a reference to a resource (in the form
 "<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
@@ -125,104 +133,181 @@ theme attribute (in the form
 "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
 containing a value of this type.
          */
-        public static final int useDefaultMargins=0x7f010003;
+        public static final int useDefaultMargins=0x7f010005;
+    }
+    public static final class color {
+        public static final int black_overlay=0x7f040000;
     }
     public static final class dimen {
-        public static final int activity_horizontal_margin=0x7f040000;
-        public static final int activity_vertical_margin=0x7f040001;
-        public static final int default_gap=0x7f040002;
+        public static final int activity_horizontal_margin=0x7f050000;
+        public static final int activity_vertical_margin=0x7f050001;
+        public static final int default_gap=0x7f050002;
     }
     public static final class drawable {
         public static final int ic_launcher=0x7f020000;
         public static final int icone_senha=0x7f020001;
         public static final int icone_usurio=0x7f020002;
-        public static final int logo=0x7f020003;
+        public static final int logo_terteus=0x7f020003;
+        public static final int logo_terteusg=0x7f020004;
+        public static final int logo_terteusp=0x7f020005;
+        public static final int logo_terteuspp=0x7f020006;
+        public static final int round_field=0x7f020007;
     }
     public static final class id {
-        public static final int RelativeLayout1=0x7f080015;
-        public static final int action_settings=0x7f08001e;
-        public static final int alignBounds=0x7f080002;
-        public static final int alignMargins=0x7f080003;
-        public static final int bottom=0x7f080004;
-        public static final int btnProxima=0x7f08001a;
-        public static final int button1=0x7f080013;
-        public static final int center=0x7f080005;
-        public static final int center_horizontal=0x7f080006;
-        public static final int center_vertical=0x7f080007;
-        public static final int checkBox1=0x7f08001c;
-        public static final int checkBox2=0x7f08001d;
-        public static final int clip_horizontal=0x7f080008;
-        public static final int clip_vertical=0x7f080009;
-        public static final int editSenha=0x7f080019;
-        public static final int editUsuario=0x7f080018;
-        public static final int end=0x7f08000a;
-        public static final int fill=0x7f08000b;
-        public static final int fill_horizontal=0x7f08000c;
-        public static final int fill_vertical=0x7f08000d;
-        public static final int horizontal=0x7f080000;
-        public static final int imageView2=0x7f080017;
-        public static final int imageView3=0x7f080016;
-        public static final int imagemLogo=0x7f08001b;
-        public static final int left=0x7f08000e;
-        public static final int right=0x7f08000f;
-        public static final int start=0x7f080010;
-        public static final int textView4=0x7f080012;
-        public static final int textoPergunta=0x7f080014;
-        public static final int top=0x7f080011;
-        public static final int vertical=0x7f080001;
+        public static final int RelativeLayout1=0x7f090016;
+        public static final int TextCont=0x7f09001e;
+        public static final int TextView01=0x7f090015;
+        public static final int action_settings=0x7f090025;
+        public static final int alignBounds=0x7f090002;
+        public static final int alignMargins=0x7f090003;
+        public static final int bottom=0x7f090004;
+        public static final int btnAvancar=0x7f09001c;
+        public static final int btnEnviarRespostas=0x7f090014;
+        public static final int btnVoltar2=0x7f090024;
+        public static final int center=0x7f090005;
+        public static final int center_horizontal=0x7f090006;
+        public static final int center_vertical=0x7f090007;
+        public static final int clip_horizontal=0x7f090008;
+        public static final int clip_vertical=0x7f090009;
+        public static final int editSenha=0x7f09001a;
+        public static final int editText1=0x7f090022;
+        public static final int editUsuario=0x7f090019;
+        public static final int end=0x7f09000a;
+        public static final int fill=0x7f09000b;
+        public static final int fill_horizontal=0x7f09000c;
+        public static final int fill_vertical=0x7f09000d;
+        public static final int horizontal=0x7f090000;
+        public static final int imageView1=0x7f090021;
+        public static final int imageView2=0x7f090018;
+        public static final int imageView3=0x7f090017;
+        public static final int imagemLogo=0x7f09001b;
+        public static final int left=0x7f09000e;
+        public static final int radioGroup=0x7f09001d;
+        public static final int radioNao=0x7f090020;
+        public static final int radioSim=0x7f09001f;
+        public static final int right=0x7f09000f;
+        public static final int start=0x7f090010;
+        public static final int textView2=0x7f090023;
+        public static final int textView4=0x7f090012;
+        public static final int textoPergunta=0x7f090013;
+        public static final int top=0x7f090011;
+        public static final int vertical=0x7f090001;
     }
     public static final class layout {
         public static final int activity_informacoes_usuario=0x7f030000;
         public static final int activity_main=0x7f030001;
         public static final int activity_pergunta1=0x7f030002;
+        public static final int activity_tela_final=0x7f030003;
+        public static final int activity_tela_sugestao=0x7f030004;
     }
     public static final class menu {
-        public static final int informacoes_usuario=0x7f070000;
-        public static final int main=0x7f070001;
-        public static final int pergunta1=0x7f070002;
+        public static final int informacoes_usuario=0x7f080000;
+        public static final int main=0x7f080001;
+        public static final int pergunta1=0x7f080002;
+        public static final int tela_final=0x7f080003;
+        public static final int tela_sugestao=0x7f080004;
     }
     public static final class string {
-        public static final int action_settings=0x7f050000;
-        public static final int app_name=0x7f050001;
-        public static final int btn_entrar=0x7f050002;
-        public static final int btn_prox_pergunta=0x7f050003;
-        public static final int btn_responder_questionario=0x7f050004;
-        public static final int hello_world=0x7f050005;
-        public static final int img_logo=0x7f050006;
-        public static final int img_senha=0x7f050007;
-        public static final int img_user=0x7f050008;
-        public static final int lbl_info_user=0x7f050009;
-        public static final int lbl_lorem_ipsum=0x7f05000a;
-        public static final int pergunta_um_lbl=0x7f05000b;
-        public static final int radio_nao=0x7f05000c;
-        public static final int radio_sim=0x7f05000d;
-        public static final int title_activity_informacoes_usuario=0x7f05000e;
-        public static final int title_activity_pergunta1=0x7f05000f;
+        public static final int action_settings=0x7f060000;
+        public static final int app_name=0x7f060001;
+        public static final int btnAvancar2=0x7f060002;
+        public static final int btnVoltar2=0x7f060003;
+        public static final int btn_anterior=0x7f060004;
+        public static final int btn_entrar=0x7f060005;
+        public static final int btn_enviar_respostas=0x7f060006;
+        public static final int btn_prox_pergunta=0x7f060007;
+        public static final int btn_proxima=0x7f060008;
+        public static final int btn_responder_questionario=0x7f060009;
+        public static final int dummy_button=0x7f06000a;
+        public static final int dummy_content=0x7f06000b;
+        public static final int hello_world=0x7f06000c;
+        public static final int img_logo=0x7f06000d;
+        public static final int img_senha=0x7f06000e;
+        public static final int img_user=0x7f06000f;
+        public static final int label_linha=0x7f060010;
+        public static final int lbl_agradecimento=0x7f060011;
+        public static final int lbl_contador=0x7f060012;
+        public static final int lbl_info_user=0x7f060013;
+        public static final int lbl_lorem_ipsum=0x7f060014;
+        public static final int lbl_sugestao_title=0x7f060015;
+        public static final int pergunta_um_lbl=0x7f060016;
+        public static final int radio_nao=0x7f060017;
+        public static final int radio_sim=0x7f060018;
+        public static final int testepergunta=0x7f060019;
+        public static final int title_activity_informacoes_usuario=0x7f06001a;
+        public static final int title_activity_pergunta1=0x7f06001b;
+        public static final int title_activity_tela_final=0x7f06001c;
+        public static final int title_activity_tela_sugestao=0x7f06001d;
+        public static final int title_activity_tela_sugestoes=0x7f06001e;
     }
     public static final class style {
         /** 
             Theme customizations available in newer API levels can go in
             res/values-vXX/styles.xml, while customizations related to
             backward-compatibility can go here.
+
         
  API 11 theme customizations can go here. 
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f060000;
+        public static final int AppBaseTheme=0x7f070000;
         /**  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f060001;
-        public static final int buttonAzul=0x7f060002;
-        public static final int cabecalho=0x7f060003;
-        public static final int editAzul=0x7f060004;
-        public static final int fonteBrancaVerdana20=0x7f060005;
-        public static final int labelInformacoes=0x7f060006;
-        public static final int styleName=0x7f060007;
-        public static final int telaBackground=0x7f060008;
-        public static final int textoAzul=0x7f060009;
-        public static final int textoBranco=0x7f06000a;
+        public static final int AppTheme=0x7f070001;
+        public static final int ButtonBar=0x7f070002;
+        public static final int FullscreenTheme=0x7f070012;
+        public static final int bgCinzaInterno=0x7f070003;
+        public static final int bgCinzaInterno2=0x7f070004;
+        public static final int botaoAmareloFontePreta=0x7f070005;
+        public static final int botaoBranco=0x7f070006;
+        public static final int buttonAzul=0x7f070007;
+        public static final int cabecalho=0x7f070008;
+        public static final int caixaTextoBranca=0x7f070009;
+        public static final int editAzul=0x7f07000a;
+        public static final int fonteBrancaVerdana20=0x7f07000b;
+        public static final int labelInformacoes=0x7f07000c;
+        public static final int labelTituloTela=0x7f07000d;
+        public static final int styleName=0x7f07000e;
+        public static final int telaBackground=0x7f07000f;
+        public static final int textoAzul=0x7f070010;
+        public static final int textoBranco=0x7f070011;
     }
     public static final class styleable {
+        /** Attributes that can be used with a ButtonBarContainerTheme.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #ButtonBarContainerTheme_buttonBarButtonStyle br.edu.fcsl.projetointegrado:buttonBarButtonStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #ButtonBarContainerTheme_buttonBarStyle br.edu.fcsl.projetointegrado:buttonBarStyle}</code></td><td></td></tr>
+           </table>
+           @see #ButtonBarContainerTheme_buttonBarButtonStyle
+           @see #ButtonBarContainerTheme_buttonBarStyle
+         */
+        public static final int[] ButtonBarContainerTheme = {
+            0x7f010000, 0x7f010001
+        };
+        /**
+          <p>This symbol is the offset where the {@link br.edu.fcsl.projetointegrado.R.attr#buttonBarButtonStyle}
+          attribute's value can be found in the {@link #ButtonBarContainerTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name br.edu.fcsl.projetointegrado:buttonBarButtonStyle
+        */
+        public static final int ButtonBarContainerTheme_buttonBarButtonStyle = 1;
+        /**
+          <p>This symbol is the offset where the {@link br.edu.fcsl.projetointegrado.R.attr#buttonBarStyle}
+          attribute's value can be found in the {@link #ButtonBarContainerTheme} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name br.edu.fcsl.projetointegrado:buttonBarStyle
+        */
+        public static final int ButtonBarContainerTheme_buttonBarStyle = 0;
         /** Attributes that can be used with a GridLayout.
            <p>Includes the following attributes:</p>
            <table>
@@ -246,8 +331,8 @@ containing a value of this type.
            @see #GridLayout_useDefaultMargins
          */
         public static final int[] GridLayout = {
-            0x7f010000, 0x7f010001, 0x7f010002, 0x7f010003,
-            0x7f010004, 0x7f010005, 0x7f010006
+            0x7f010002, 0x7f010003, 0x7f010004, 0x7f010005,
+            0x7f010006, 0x7f010007, 0x7f010008
         };
         /**
           <p>This symbol is the offset where the {@link br.edu.fcsl.projetointegrado.R.attr#alignmentMode}
@@ -387,8 +472,8 @@ containing a value of this type.
          */
         public static final int[] GridLayout_Layout = {
             0x010100f4, 0x010100f5, 0x010100f6, 0x010100f7,
-            0x010100f8, 0x010100f9, 0x010100fa, 0x7f010007,
-            0x7f010008, 0x7f010009, 0x7f01000a, 0x7f01000b
+            0x010100f8, 0x010100f9, 0x010100fa, 0x7f010009,
+            0x7f01000a, 0x7f01000b, 0x7f01000c, 0x7f01000d
         };
         /**
           <p>This symbol is the offset where the {@link android.R.attr#layout_height}

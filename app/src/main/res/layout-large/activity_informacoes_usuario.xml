@@ -1,0 +1,61 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="0dp"
+    android:background="#FFF"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="0dp"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".InformacoesUsuarioActivity" >
+
+    <TextView
+        android:id="@+id/textView4"
+        style="@style/cabecalho"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="#09C"
+        android:gravity="center_horizontal"
+        android:height="80dp"
+        android:text="@string/lbl_info_user"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFF"
+        android:textSize="28sp" />
+
+    <Button
+        android:id="@+id/btnEnviarRespostas"
+        style="@style/buttonAzul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="#09C"
+        android:height="80dp"
+        android:minHeight="80dp"
+        android:onClick="abrirQuestoes"
+        android:text="@string/btn_responder_questionario"
+        android:textColor="#FFF"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/textoPergunta"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/btnEnviarRespostas"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:gravity="center"
+        android:height="@dimen/activity_horizontal_margin"
+        android:paddingLeft="15dp"
+        android:paddingRight="10dp"
+        android:text="@string/lbl_lorem_ipsum"
+        android:textColor="#000"
+        android:textSize="25dp" />
+    
+</RelativeLayout>

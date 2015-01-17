@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF"
+    tools:context=".TelaSugestao" >
+
+    <TextView
+        android:id="@+id/TextCont"
+        style="@style/labelTituloTela"
+        android:textColor="#000"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/lbl_sugestao_title"
+        android:textSize="22sp" />
+
+    <Button
+        android:id="@+id/btnEnviarRespostas"
+        style="@style/botaoAmareloFontePreta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/editText1"
+        android:layout_marginBottom="15dp"
+        android:layout_toRightOf="@+id/textView2"
+        android:onClick="avancar"
+        android:text="@string/btnAvancar2" />
+
+    <EditText
+        android:id="@+id/editText1"
+        style="@style/caixaTextoBranca"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnEnviarRespostas"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/TextCont"
+        android:layout_marginBottom="10dp"
+        android:ems="10"
+        android:gravity="top"
+        android:inputType="textMultiLine" />
+
+    <Button
+        android:id="@+id/btnVoltar2"
+        style="@style/botaoAmareloFontePreta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/btnEnviarRespostas"
+        android:layout_alignBottom="@+id/btnEnviarRespostas"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/textView2"
+        android:onClick="voltar"
+        android:text="@string/btnVoltar2" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btnEnviarRespostas"
+        android:layout_alignTop="@+id/btnEnviarRespostas"
+        android:layout_centerHorizontal="true"
+        android:background="#FFF"
+        android:minWidth="5dp"
+        android:text="@string/label_linha"
+        android:width="5dp" />
+
+</RelativeLayout>
