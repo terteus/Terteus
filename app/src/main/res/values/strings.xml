@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Projeto Integrador</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="btn_entrar">Entrar</string>
+    <string name="img_user">Usuário</string>
+    <string name="img_senha">Senha</string>
+    <string name="img_logo">Projeto Integrador</string>
+    <string name="title_activity_pergunta1">Pergunta1Activity</string>
+    <string name="pergunta_um_lbl"></string>
+    <string name="radio_sim">Sim</string>
+    <string name="radio_nao">Não</string>
+    <string name="btn_prox_pergunta">Próxima Pergunta</string>
+    <string name="title_activity_informacoes_usuario">InformacoesUsuarioActivity</string>
+    <string name="lbl_info_user">Informações do Usuário</string>
+    <string name="btn_responder_questionario">Responder Questionario</string>
+    <string name="lbl_lorem_ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ut lorem pharetra, fermentum magna vel, consectetur arcu. In vehicula felis eu nunc dictum convallis eu eget est. Vestibulum egestas ante et orci tincidunt, nec mattis nulla ullamcorper. Proin sed malesuada augue, pretium imperdiet sem. Sed egestas tempus magna, sed convallis ante hendrerit semper. Donec sollicitudin sapien ligula, vel iaculis tortor facilisis eget. Maecenas ultricies sit amet purus vitae eleifend. Cras venenatis quis odio id interdum. Praesent tristique turpis et bibendum porttitor. Fusce commodo egestas ipsum in porttitor. Fusce dapibus libero quis leo bibendum, in blandit urna lacinia.</string>
+
+</resources>

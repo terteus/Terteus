@@ -1,0 +1,61 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="styleName">
+        <item name="android:background">#3a3a3a</item>
+    </style>
+    <style name="telaBackground">
+        <item name="android:background">#3a3a3a</item>
+        <item name="android:paddingLeft">@dimen/activity_horizontal_margin</item>
+    </style>
+    <style name="textoBranco" parent="android:Widget.Holo.Light.TextView">
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+        <item name="android:textColor">#FFF</item>
+    </style>
+    <style name="fonteBrancaVerdana20" parent="android:Widget.Holo.Light.TextView">
+        <item name="android:fontFamily">Verdana</item>
+        <item name="android:textColor">#FFF</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="editAzul" parent="android:Widget.Holo.Light.EditText">
+        <item name="android:background">#00afef</item>
+        <item name="android:minHeight">35dp</item>
+    </style>
+    <style name="cabecalho" parent="@style/fonteBrancaVerdana20">
+        <item name="android:background">#00afef</item>
+        <item name="android:paddingBottom">20dp</item>
+        <item name="android:paddingLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingRight">@dimen/activity_vertical_margin</item>
+        <item name="android:paddingTop">15dp</item>
+        <item name="android:textAppearance">?android:attr/textAppearanceMedium</item>
+    </style>
+    <style name="labelInformacoes" parent="android:Widget.Holo.Light.TextView">
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:paddingTop">10dp</item>
+    </style>
+    <style name="buttonAzul" parent="android:Widget.Holo.Light.Button">
+        <item name="android:background">#00afef</item>
+        <item name="android:height">48dp</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:textColor">#FFF</item>
+    </style>
+    <style name="textoAzul" parent="@style/fonteBrancaVerdana20">
+        <item name="android:textColor">#00afef</item>
+    </style>
+</resources>
