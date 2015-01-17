@@ -67,7 +67,7 @@ public class InformacoesUsuarioActivity extends Activity {
 		
 	}
 
-	public String consultaPhp(String url1) {// mÈtodo para realizar todas as consultas no banco
+	public String consultaPhp(String url1) {// m√©todo para realizar todas as consultas no banco
 		String retornoPerguntas = "";
 		try {
 			URL url = new URL(url1);
@@ -97,7 +97,7 @@ public class InformacoesUsuarioActivity extends Activity {
 				abrirPerguntas.putExtra("pergunta", vetPerguntas[variaveisGlobais.posicao]);
 				startActivityForResult(abrirPerguntas, 0);// abre a tela de pergunta
 				
-			} else {// abre a tela de sugest„o
+			} else {// abre a tela de sugest√£o
 				Intent abrirSugestao = new Intent(this, TelaSugestao.class);
 				startActivityForResult(abrirSugestao, 1);
 			}
@@ -111,10 +111,10 @@ public class InformacoesUsuarioActivity extends Activity {
 			} else {
 				Intent abrirSugestao = new Intent(this, TelaSugestao.class);
 				abrirSugestao.putExtra("sugestao", sugestao);
-				startActivityForResult(abrirSugestao, 1);// abre a tela de sugest„o
+				startActivityForResult(abrirSugestao, 1);// abre a tela de sugest√£o
 			}
 		}
-		else if (requestCode == 1 && variaveisGlobais.opcao == 1) {// depois de passar pela tela de sugest„o
+		else if (requestCode == 1 && variaveisGlobais.opcao == 1) {// depois de passar pela tela de sugest√£o
 			Intent telaFinal = new Intent(this, TelaFinal.class);
 			startActivity(telaFinal);// abre a tela final
 			finish();

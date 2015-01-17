@@ -31,7 +31,7 @@ public class TelaFinal extends Activity {
 		return true;
 	}
 
-	public void enviarRespostas(View v) {// método para enviar as respostas
+	public void enviarRespostas(View v) {// mÃ©todo para enviar as respostas
 
 		String retorno = "";
 		try {
@@ -75,15 +75,15 @@ public class TelaFinal extends Activity {
 			// Toast.LENGTH_SHORT).show();
 		}
 		
-		consultaPhp("http://terteus.net.br/cadastrarSugestao.php?descricao='"+ variaveisGlobais.sugestao+ "'&usuario="+ variaveisGlobais.idUsuario+"&questionario="+variaveisGlobais.questionario);// gravar a sugestão no banco no
+		consultaPhp("http://terteus.net.br/cadastrarSugestao.php?descricao='"+ variaveisGlobais.sugestao+ "'&usuario="+ variaveisGlobais.idUsuario+"&questionario="+variaveisGlobais.questionario);// gravar a sugestÃ£o no banco no
 											// servidor
 		 
 		// consultaPhp("http://terteus.com.br/updateStatus.php?id="+variaveisGlobais.idUsuario);//
-		// bloqueia o usuário após responder o questionário
+		// bloqueia o usuÃ¡rio apÃ³s responder o questionÃ¡rio
 		finish();
 	}
 
-	public String consultaPhp(String url1) {// método para realizar as conexões
+	public String consultaPhp(String url1) {// mï¿½todo para realizar as conexï¿½es
 											// com o banco no servidor
 		String retornoPerguntas = "";
 		try {

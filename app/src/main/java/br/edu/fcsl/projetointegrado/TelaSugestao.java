@@ -30,15 +30,15 @@ public class TelaSugestao extends Activity {
 		return true;
 	}
 	
-	public void avancar(View v){// realiza as operações para avançar a tela
+	public void avancar(View v){// realiza as operaÃ§Ãµes para avanÃ§ar a tela
 		variaveisGlobais.posicao++;
 		variaveisGlobais.sugestao=sugestoes.getText().toString();
 		variaveisGlobais.opcao=1;
 		finish();
 	}
-	public void voltar(View v){// realiza as operações para voltar a tela
+	public void voltar(View v){// realiza as operaÃ§Ãµeses para voltar a tela
 		variaveisGlobais.posicao--;
-		variaveisGlobais.sugestao=sugestoes.getText().toString();// grava a sugestão na variável global
+		variaveisGlobais.sugestao=sugestoes.getText().toString();// grava a sugestÃ£o na variÃ¡vel global
 		variaveisGlobais.opcao=0;
 		finish();// fecha a tela
 	}

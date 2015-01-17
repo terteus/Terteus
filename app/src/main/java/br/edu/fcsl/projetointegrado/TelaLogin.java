@@ -1,7 +1,9 @@
 package br.edu.fcsl.projetointegrado;
-
+import  br.edu.fcsl.entidade.variaveisGlobais;
+import android.app.Activity;
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.StrictMode;
 import android.telephony.TelephonyManager;
@@ -9,6 +11,13 @@ import android.view.Menu;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.URL;
+import java.util.Scanner;
+
 import br.edu.fcsl.projetosharedpreferences.listener.EscondeTecladoListener;
 
 public class TelaLogin extends Activity {
@@ -36,13 +45,13 @@ public class TelaLogin extends Activity {
 		return true;
 	}
 
-	public void abrirQuestionario(View v) throws Exception {// método para abrir
+	public void abrirQuestionario(View v) throws Exception {// mï¿½todo para abrir
 		
 		 String IMEI = "";
 		 TelephonyManager tm = (TelephonyManager)getSystemService(Context.TELEPHONY_SERVICE);
 		 IMEI = tm.getDeviceId();
 	     
-	    // Toast.makeText(this,IMEI,Toast.LENGTH_LONG).show();
+	     Toast.makeText(this,IMEI,Toast.LENGTH_LONG).show();
 		/* abrirTela = new Intent(this,
 				telaPerguntas.class);
 		variaveisGlobais.login = usuario.getText().toString();
@@ -63,21 +72,21 @@ public class TelaLogin extends Activity {
 		variaveisGlobais.login = usuario.getText().toString();
 		startActivity(abrirTela3);
 		finish();*/
-		/*												// o questionário
+														// o questionï¿½rio
 		if (usuario.getText().toString().equals("")) {// verifica se o usuario
-														// não foi informado
-			usuario.setError("Usuário não informado");
+														// nï¿½o foi informado
+			usuario.setError("UsuÃ¡rio nÃ£o informado");
 		} else if (senha.getText().toString().equals("")) {// verifica se a
-															// senha não foi
+															// senha nï¿½o foi
 															// informado
-			senha.setError("Senha não informada");
+			senha.setError("Senha nÃ£o informada");
 		} else if (usuario.getText().toString().equals("")
 				&& senha.getText().toString().equals("")) {// verifica se o
 															// usuario e senha
-															// não foram
+															// nï¿½o foram
 															// informados
-			senha.setError("Usuário e senha não informados");
-		} else {// realiza a autenticação do login
+			senha.setError("UsuÃ¡rio e senha nÃ£o informados");
+		} else {// realiza a autenticaï¿½ï¿½o do login
 			String retorno = "";
 			try {
 				URL url = new URL(
@@ -96,25 +105,25 @@ public class TelaLogin extends Activity {
 			} catch (Exception e) {
 				e.printStackTrace();
 				Toast.makeText(this,
-						"Dados incorretos ou questionário já respondido",
+						"Dados incorretos ou questionÃ¡rio jÃ¡ respondido",
 						Toast.LENGTH_LONG).show();
 			}
 
-			if (retorno.equals("1")) {// autenticação realizada com sucesso
+			if (retorno.equals("1")) {// autenticaï¿½ï¿½o realizada com sucesso
 				Intent abrirTela = new Intent(this,
 						InformacoesUsuarioActivity.class);
 				variaveisGlobais.login = usuario.getText().toString();
 				startActivity(abrirTela);
 				finish();
-			} else if (retorno.equals("0")) {// erro na autenticação com usuario
+			} else if (retorno.equals("0")) {// erro na autenticaï¿½ï¿½o com usuario
 												// ou senha incorretos
 				Toast.makeText(this,
-						"Dados incorretos ou questionário já respondido",
+						"Dados incorretos ou questionÃ¡rio jÃ¡ respondido",
 						Toast.LENGTH_LONG).show();
 			}
 			
 		}
-		*/
+
 	}
 
 }
